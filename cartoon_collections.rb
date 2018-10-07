@@ -40,10 +40,9 @@ def long_planeteer_calls(calls)
   if shorter.length > 1 || longer.length > 1
     return true
   end
-  if calls.length > shorter.length
-    return false
-  end
-  end
+    if calls.length > shorter.length
+      return false
+    end
 end
 
 
