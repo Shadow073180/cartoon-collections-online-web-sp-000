@@ -33,8 +33,8 @@ def long_planeteer_calls(calls)
         end
         if x.length < 4
           shorter << x
-  i += 1
         end
+  i += 1
       end
   if shorter.length > 1 || longer.length > 1
     return true
